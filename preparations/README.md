@@ -8,12 +8,11 @@ Your AWS user has been reset. Please log back in using the default password:
 * Username: Your CEU email address in lowercase
 * Password `CEUba2222`
 
-AWS will ask you to change your password once you log in. Please take note of your new password
+AWS will ask you to change your password once you log in. Please take note of your new password.
 
-Once you've logged in, click _Security Credentials_ in your Profile (top-right corner) _Create Access Key_ (use case: _Other_, no tags required) and save your _Access Key_ and _Secret access key_.  
+Once you've logged in, click _Security Credentials_ in your Profile (top-right corner) _Create Access Key_ (use case: _Other_, no tags required) and save your _Access Key_ and _Secret Access Key_.  
 <img src="Brave%20Browser%202026-02-25%2015.09.06.png" width="50%">
-## 
-OpenAI API
+## OpenAI API
 *We'll use OpenAI for Model Tracing - a debug interface about how Agents work*
 1) Go to https://auth.openai.com/log-in
 2) Click Sign Up
@@ -24,7 +23,7 @@ Once you log in:
 6) API key:
 	* Key name: CEU
 	* Project name: leave _Default Project_
-	1) "Generate API key" -> copy and save your key
+	* "Generate API key" -> copy and save your key
 
 ## Render.com
 *We'll need this for deploying agents to production*
