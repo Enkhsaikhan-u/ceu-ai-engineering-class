@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/zoltanctoth/ai-engineering-class:latest-release
+      options: --user root
     steps:
       - uses: actions/checkout@v4
       - name: Create .env from secret
