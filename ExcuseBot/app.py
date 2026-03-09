@@ -1,31 +1,46 @@
 import chainlit as cl
 import dotenv
+
 from openai.types.responses import ResponseTextDeltaEvent
 
-from agents import Runner
-from excuse_bot_01 import excuse_agent  # Importing the agent we just created
+# Import SQLiteSession along with Runner
+from agents import Runner, SQLiteSession
+# Import your excuse agent instead of the nutrition agent
+from excuse_bot_01 import excuse_agent
 
 dotenv.load_dotenv()
 
+
+@cl.on_chat_start
+async def on_chat_start():
+    # Initialize the SQLite session when the chat starts
+    session = SQLiteSession("conversation_history")
+    # Store it in the Chainlit user session
+    cl.user_session.set("agent_session", session)
+
+
 @cl.on_message
 async def on_message(message: cl.Message):
-    # Pass the excuse_agent and the user's message to your Runner
+    # Retrieve the active session
+    session = cl.user_session.get("agent_session")
+
+    # Pass the session into the Runner along with the excuse_agent
     result = Runner.run_streamed(
-        excuse_agent,
-        message.content,
+        excuse_agent, 
+        message.content, 
+        session=session
     )
 
     msg = cl.Message(content="")
     
     async for event in result.stream_events():
-        # Stream final message text to the Chainlit UI
+        # Stream final message text to screen
         if event.type == "raw_response_event" and isinstance(
             event.data, ResponseTextDeltaEvent
         ):
             await msg.stream_token(token=event.data.delta)
-            print(event.data.delta, end="", flush=True)
 
-        # Handle any potential tool calls (even though we have none yet)
+        # Handle tool call visualizations in the UI
         elif (
             event.type == "raw_response_event"
             and hasattr(event.data, "item")
@@ -35,8 +50,5 @@ async def on_message(message: cl.Message):
         ):
             with cl.Step(name=f"{event.data.item.name}", type="tool") as step:
                 step.input = event.data.item.arguments
-                print(
-                    f"\nTool call: {event.data.item.name} with args: {event.data.item.arguments}"
-                )
 
     await msg.update()
