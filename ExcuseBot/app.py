@@ -3,7 +3,7 @@ import dotenv
 from openai.types.responses import ResponseTextDeltaEvent
 
 from agents import Runner
-from excuse_agent import excuse_agent  # Importing the agent we just created
+from excuse_bot_01 import excuse_agent  # Importing the agent we just created
 
 dotenv.load_dotenv()
 
