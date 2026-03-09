@@ -5,7 +5,7 @@ from openai.types.responses import ResponseTextDeltaEvent
 from agents import Runner
 from excuse_bot_01 import excuse_agent  # Importing the agent we just created
 
-dotenv.load_dotenv()git 
+dotenv.load_dotenv()
 
 @cl.on_message
 async def on_message(message: cl.Message):
