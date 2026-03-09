@@ -1,0 +1,102 @@
+situation,recipient,tone,message
+missed assignment deadline,professor,formal,"Dear Professor, I apologize for missing the assignment deadline due to an unexpected issue. I appreciate your understanding."
+late to class,professor,apologetic,"Dear Professor, I’m sorry for arriving late to class today. I experienced an unexpected delay."
+missed lecture,classmate,casual,"Hey, sorry I missed today's lecture. Could you share the notes with me?"
+missed meeting,manager,professional,I apologize for missing the meeting earlier today. An unexpected scheduling issue came up.
+late to team meeting,manager,professional,Sorry for joining the meeting late. I encountered an unexpected delay.
+late email reply,coworker,polite,Apologies for the delayed reply. Things were a bit hectic earlier.
+forgot to submit homework,teacher,formal,"Dear Teacher, I apologize for forgetting to submit my homework. I will make sure it does not happen again."
+missed group project meeting,classmates,apologetic,Sorry for missing the group meeting. Something unexpected came up.
+cancelled plans last minute,friend,casual,I'm really sorry for cancelling our plans last minute. Something came up unexpectedly.
+missed birthday,friend,casual,I’m really sorry I missed your birthday. I hope you had an amazing day.
+late to dinner,friend,casual,Sorry I'm running late to dinner! I’ll be there soon.
+forgot to reply,friend,casual,Sorry for the late reply—I completely missed your message.
+missed phone call,family member,casual,Sorry I missed your call earlier. I’ll call you back shortly.
+missed appointment,doctor office,polite,I apologize for missing my appointment earlier. Something unexpected came up.
+late assignment submission,professor,formal,"Dear Professor, I apologize for the late submission. Thank you for your patience."
+missed lecture,classmate,casual,"Hey, sorry I missed class today. Could you send the notes?"
+late report submission,manager,professional,Apologies for submitting the report late. I encountered an unexpected issue.
+forgot document,coworker,polite,Sorry for forgetting to send the document earlier. I've attached it now.
+missed interview,recruiter,professional,"Dear [Name], I apologize for missing our scheduled interview due to an unforeseen issue."
+late to interview,recruiter,professional,I apologize for joining the interview late today. Thank you for your patience.
+missed family dinner,family member,apologetic,I'm sorry I couldn't make it to dinner. Something came up unexpectedly.
+cancelled study session,classmate,casual,Sorry for cancelling our study session. Can we reschedule?
+late response,professor,formal,"Dear Professor, I apologize for the delayed response to your email."
+missed team check-in,manager,professional,Apologies for missing today's team check-in. I will review the notes.
+forgot meeting,coworker,polite,Sorry for missing our scheduled meeting earlier.
+missed call from boss,manager,professional,Sorry I missed your call earlier. I’ll follow up shortly.
+late to online meeting,team,professional,Apologies for joining the call late due to a technical delay.
+forgot homework,teacher,formal,I apologize for forgetting to bring my homework today.
+late message reply,friend,casual,Sorry for the slow reply. I've been busy lately.
+missed social event,friend,casual,I'm really sorry I couldn't make it to the event.
+late arrival,coworker,polite,Sorry for arriving late. I ran into traffic.
+forgot task,manager,professional,I apologize for overlooking this task earlier.
+missed lecture notes,classmate,casual,Sorry I missed class. Could you send the notes?
+cancelled meeting,client,professional,I apologize for cancelling our meeting on short notice.
+late submission,professor,formal,"Dear Professor, I apologize for submitting the assignment late."
+missed presentation,professor,formal,"Dear Professor, I’m sorry for missing my presentation today."
+late to shift,supervisor,professional,Sorry for arriving late to my shift today.
+missed gym session,trainer,casual,Sorry I missed today's session. Something came up.
+late project update,manager,professional,Apologies for the delayed update on the project.
+missed deadline,coworker,professional,Sorry for missing the deadline. I underestimated the time required.
+late to webinar,organizer,polite,Apologies for joining the webinar late.
+missed practice,coach,apologetic,Sorry I missed practice today. Something unexpected came up.
+late to appointment,client,professional,Sorry for being late to the appointment.
+forgot birthday,family member,apologetic,I’m sorry I forgot your birthday. I hope you had a wonderful day.
+late to movie,friend,casual,Sorry I'm late to the movie. Traffic was worse than expected.
+missed lunch meeting,coworker,polite,Sorry I missed our lunch meeting earlier.
+late training session,instructor,formal,I apologize for arriving late to the training session.
+missed recruiter call,recruiter,professional,Apologies for missing your call earlier.
+late presentation arrival,manager,professional,Sorry for joining the presentation late.
+missed seminar,professor,formal,"Dear Professor, I apologize for missing the seminar."
+late payment,landlord,polite,I apologize for the delayed payment this month.
+missed workshop,organizer,polite,Sorry I couldn’t attend the workshop.
+late library return,librarian,polite,Apologies for returning the book late.
+missed volunteer shift,coordinator,apologetic,Sorry I missed my volunteer shift.
+late client reply,client,professional,Apologies for the delayed response.
+missed online class,professor,formal,"Dear Professor, I apologize for missing the online class."
+late taxi arrival,customer,casual,"Sorry for the delay, traffic slowed me down."
+missed station meeting,colleague,polite,Sorry I missed our meeting at the station.
+late study group,classmate,casual,Sorry I'm late to the study group.
+missed office meeting,manager,professional,Apologies for missing the office meeting.
+late check-in,hotel staff,polite,Sorry for the delayed check-in.
+missed rehearsal,director,apologetic,Sorry I missed rehearsal today.
+late package delivery,customer,professional,Apologies for the delayed delivery.
+missed friend call,friend,casual,Sorry I missed your call.
+late discussion arrival,professor,formal,"Dear Professor, I apologize for joining the discussion late."
+missed exam review session,professor,formal,I’m sorry I missed the review session.
+late restaurant reservation,host,polite,Sorry we are running late for our reservation.
+missed conference call,manager,professional,Apologies for missing the conference call.
+late shift arrival,supervisor,professional,Sorry for arriving late to my shift.
+missed online meeting,coworker,professional,Apologies for missing the online meeting.
+late homework submission,teacher,formal,I apologize for submitting my homework late.
+missed sports game,coach,apologetic,Sorry I missed the game today.
+late lab session,professor,formal,"Dear Professor, I apologize for arriving late to the lab."
+missed parent call,parent,casual,Sorry I missed your call earlier.
+late email follow-up,client,professional,Apologies for the delayed follow-up.
+missed art class,instructor,apologetic,Sorry I missed art class.
+late webinar panel,organizer,polite,Apologies for joining the panel late.
+missed networking event,organizer,professional,Sorry I couldn’t attend the networking event.
+late hotel checkout,hotel staff,polite,Apologies for checking out late.
+missed project review,manager,professional,Sorry I missed the project review meeting.
+late grocery pickup,store staff,polite,Sorry for arriving late for pickup.
+missed yoga class,instructor,casual,Sorry I missed yoga today.
+late school pickup,teacher,apologetic,Sorry for being late to pick up my child.
+missed book club meeting,group,casual,Sorry I missed book club tonight.
+late car appointment,mechanic,polite,Apologies for arriving late to the appointment.
+missed webinar QA,host,polite,Sorry I missed the Q&A session.
+late flight gate arrival,airline staff,polite,Apologies for arriving late to the gate.
+missed coding workshop,instructor,apologetic,Sorry I missed the coding workshop.
+late team standup,team,professional,Apologies for joining standup late.
+missed online quiz,professor,formal,"Dear Professor, I apologize for missing the quiz."
+late shift report,manager,professional,Sorry for submitting the shift report late.
+missed dentist appointment,dentist office,polite,I apologize for missing my dentist appointment.
+late carpool arrival,friend,casual,Sorry for being late for the carpool.
+missed photography session,client,professional,Sorry I couldn’t attend the photography session.
+late tutoring session,student,polite,Sorry for starting the tutoring session late.
+missed community meeting,organizer,apologetic,Sorry I missed the community meeting.
+late podcast recording,host,casual,Sorry I'm late for the recording.
+missed campus event,friend,casual,Sorry I couldn’t make it to the campus event.
+late check-in meeting,manager,professional,Apologies for joining the check-in meeting late.
+missed music practice,bandmate,casual,Sorry I missed practice today.
+late volunteer meeting,coordinator,apologetic,Sorry for arriving late to the volunteer meeting.
